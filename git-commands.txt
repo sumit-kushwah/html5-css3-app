@@ -8,8 +8,8 @@ Git Commands to push the code to remote repository
 5. git add filename - To add file to local git repository 
 6. git add . - To add multiple files to local git repository
 7. git commit -am "added new files to repository" - This will commit all the changes made to files 
-8. git push origin main - To push the changes to remote repository
-9. git pull origin main - To pull the changes from remote repository 
+8. git push origin master - To push the changes to remote repository
+9. git pull origin master - To pull the changes from remote repository 
 
 
 git config for the first time
