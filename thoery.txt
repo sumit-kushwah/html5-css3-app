@@ -114,7 +114,7 @@ CSS - Cascading Stylesheet to format the layout of our webpage
 
 CSS - can be added to HTML document in 3 ways
 
-Inline - by using style attribute inside HTMl element
+Inline - by using style attribute inside HTML element
 Internal - by using <style> element in <head> section
 External - by using <link> element to link external CSS
 

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title>HTML Forms</title>
+</head>
+<body>
+    <div class="container">
+        <h1>HTML Form</h1>
+        <form>
+            <div>
+                <label for="">FirstName</label>
+                <input type="text"
+                       class="form-control w-50"
+                       name="fullName"
+                       value="Uma"
+                >
+            </div>
+            <br>
+            <div>
+                <label for="">LastName</label>
+                <input type="text" class="form-control w-50">
+            </div>
+            <br>
+            <div>
+                <label for="">Password</label>
+                <input type="password" class="form-control w-50">
+            </div>
+            <br>
+            <div>
+                <label for="">Comments</label>
+                <textarea class="form-control w-50">   Uma
+                </textarea>
+            </div>
+            <br>
+            <div>
+                <label for="">IsAdmin</label>
+                <input type="checkbox" id="check" class="form-check-input">
+            </div>
+            <br>
+            <div>
+                <label for="">Subjects</label>&nbsp;&nbsp;
+                <input type="radio" class="form-check-input" name="subject">&nbsp;&nbsp;Maths &nbsp;&nbsp;
+                <input type="radio" class="form-check-input" name="subject">&nbsp;&nbsp;Physics &nbsp;&nbsp;
+            </div>
+            <br>
+            <div>
+                <label>Country</label>
+                <select class="form-select w-50">
+                    <option value="">Select</option>
+                    <option value="1">Bharat</option>
+                    <option value="2">Japan</option>
+                    <option value="3">Australia</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Country</label>
+                <select class="form-select w-50" multiple>
+                    <option value="">Hyderbad</option>
+                    <option value="1">Mumbai</option>
+                    <option value="2">Bengaluru</option>
+                    <option value="3">Pune</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="file" accept="image/*"> <br>
+                <input type="file" accept="application/pdf"> <br>
+                <input type="file" accept="application/vnd.ms-excel"> <br>
+                <input type="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"><br>
+                <input type="file" accept=".csv">
+            </div>
+            <br>
+            <div>
+                <input type="button" class="btn btn-primary" value="Click Me">
+                <input type="submit" class="btn btn-success" value="Submit">
+                <input type="reset" class="btn btn-warning" value="Reset">
+                <input type="image" src="../images/click.png" alt="Image Button">
+            </div>
+            <br>
+            <div>
+                <input type="hidden" name="hidden" value="30">
+            </div>
+        </form>
+    </div>
+    <br><br><br><br>
+</body>
+</html>
