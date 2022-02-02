@@ -161,7 +161,7 @@ can not add block level elements to inline elements
 
 Block Level Elements         Inline Elements
 ---------------------        ------------------
-H1-h6                          <span>
+H1-H6                          <span>
 table                          <a>
 p                              <button>
 div                            <sup>
@@ -226,7 +226,7 @@ Will automatically adjust for different screen sizes and viewports
 
 to crete responsive website we need <meta> tag
 
-<meta name="viewport" content="width=device-with, Initial-scale=1.0">
+<meta name="viewport" content="width=device-width, Initial-scale=1.0">
 
 meta - This will set the viewport of our page which will give instructions to browser 
        on how to control page's deminesion and scaling
@@ -257,7 +257,6 @@ Semantic
 <section>
 <summary>
 <time>
-<h1>
 
 
 CSS3
