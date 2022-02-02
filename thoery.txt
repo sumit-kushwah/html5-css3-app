@@ -10,6 +10,8 @@ HTML - This tag signals that from here we are going to write HTML code
 
 HEAD - Here we write meta data for the pages mostaly meant for search engines
 
+Body - This is where content of the page goes (headings, images, hyperlinks)
+
 Title- Title of the webpage
 
 Header Tags - <h1>,<h2>,<h3>,<h4>,<h5>,<h6>
@@ -23,10 +25,10 @@ Some of the elements will have no content and no end tag
 
 Only content inside the body section will be displayed
 
-Features os HTML
+Features of HTML
 ----------------
 1. simple and easy to use
-2. Platform independent (Windows, Max, Linux)
+2. Platform independent (Windows, Mac, Linux)
 3. case insensitive language
 
 Note: Write all the tags in lower-case for consistency and for the better readability
