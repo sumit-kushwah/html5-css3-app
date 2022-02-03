@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        p.intro::first-line {
+            color: blue;
+            font-variant: small-caps;
+        }
+        div::first-letter {
+            color: blue;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        You can create special effect using ::first-line of the text 
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio commodi, totam asperiores esse voluptatem quibusdam incidunt labore mollitia, maxime alias quasi iste magnam aspernatur nemo excepturi ex iusto id eaque animi! Quidem hic neque assumenda necessitatibus id rerum ipsa at?
+    </p>
+    <p class="intro">
+        You can create special effect using ::first-line of the text 
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio commodi, totam asperiores esse voluptatem quibusdam incidunt labore mollitia, maxime alias quasi iste magnam aspernatur nemo excepturi ex iusto id eaque animi! Quidem hic neque assumenda necessitatibus id rerum ipsa at?
+    </p>
+    <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, alias.
+    </div>
+</body>
+</html>
